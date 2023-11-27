@@ -124,4 +124,14 @@ let d = a % 10
 let b = Math.trunc(a/10)
 let c = Math.trunc(a/100)
 
+if (d > b) {
+    console.log(d);
+}
+
+if (b > c) {
+    console.log(b);
+}else{
+    console.log(c);
+}
+
 console.log(b);
