@@ -19,8 +19,8 @@
 
 
 // 1-misol
-// let a = +prompt("Birinchi insoning yoshini kiriting")
-// let b = +prompt("Ikkinchi insoning yoshini kiriting")
+// let a = +prompt("songi kiriting")
+// let b = +prompt("songi kiriting")
 
 // if (a > b) {
 //     console.log(a ** 2);
@@ -29,9 +29,9 @@
 // }
 
 // 2-misol
-// let a = +prompt("Birinchi insoning yoshini kiriting")
-// let b = +prompt("Ikkinchi insoning yoshini kiriting")
-// let c = +prompt("Uchinchi insoning yoshini kiriting")
+// let a = +prompt("songi kiriting")
+// let b = +prompt("songi kiriting")
+// let c = +prompt("songi kiriting")
 
 // if (a > b) {
 //     console.log(a);
@@ -44,7 +44,7 @@
 
 // 3-misol
 
-// let a = +prompt("Birinchi insoning yoshini kiriting")
+// let a = +prompt("songi kiriting")
 
 // if (a % 2 == 0) {
 //     console.log("juft son");
@@ -55,7 +55,7 @@
 
 // 4 - misol
 
-// let a = +prompt("Birinchi insoning yoshini kiriting")
+// let a = +prompt("son kiriting")
 
 // if (a % 5 == 0) {
 //     console.log("rost");
@@ -66,7 +66,7 @@
 
 // 5 - misol 
 
-// let a = +prompt("Birinchi insoning yoshini kiriting");
+// let a = +prompt("son kiriting");
 
 // b = Math.trunc(a/10)
 
@@ -75,7 +75,7 @@
 
 // 6 - misol
 
-// let a = +prompt("Birinchi insoning yoshini kiriting");
+// let a = +prompt("son kiriting");
 
 // let b = a % 10
 
@@ -84,7 +84,7 @@
 
 // 7 - misol 
 
-// let a = +prompt("Birinchi insoning yoshini kiriting");
+// let a = +prompt("son kiriting");
 
 // b = Math.trunc(a/10)
 
@@ -99,7 +99,7 @@
 
 //  8 - misol
 
-// let a = +prompt("Birinchi insoning yoshini kiriting");
+// let a = +prompt("son kiriting");
 
 // if (a % 10 == 2) {
 //     console.log("rost");
@@ -110,10 +110,18 @@
 
 // 9 - misol
 
-// let a = +prompt("Birinchi insoning yoshini kiriting");
+// let a = +prompt(" son  kiriting");
 
 // b = Math.trunc(a/100)
 
 // console.log(b);
 
-// 10 - misol ?
+// 10 - misol 
+
+let a = +prompt("soni kiriting");
+
+let d = a % 10
+let b = Math.trunc(a/10)
+let c = Math.trunc(a/100)
+
+console.log(b);
