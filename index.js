@@ -64,16 +64,13 @@
 // }
 
 
-// 5 - misol ?
+// 5 - misol 
 
 // let a = +prompt("Birinchi insoning yoshini kiriting");
 
-// let b = a % 10
-// let c = b % 10
-// let d = c / 10
+// b = Math.trunc(a/10)
 
-// console.log(d);
-
+// console.log(b);
 
 
 // 6 - misol
@@ -82,12 +79,22 @@
 
 // let b = a % 10
 
-// console.log(c);
+// console.log(b);
 
 
-// 7 - misol ?
+// 7 - misol 
 
+// let a = +prompt("Birinchi insoning yoshini kiriting");
 
+// b = Math.trunc(a/10)
+
+// let c = a % 10
+
+// if (b > c) {
+//     console.log("rost");
+// }else{
+//     console.log("yolg'on");
+// }
 
 
 //  8 - misol
@@ -105,9 +112,8 @@
 
 // let a = +prompt("Birinchi insoning yoshini kiriting");
 
-// let b = a / 10
-// let c = a % 10
+// b = Math.trunc(a/100)
 
-// console.log(c);
+// console.log(b);
 
-// 10 - misol
+// 10 - misol ?
